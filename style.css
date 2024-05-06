@@ -15,7 +15,7 @@
   box-sizing: border-box;
   background-color: #222222;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nav-bar {
@@ -165,6 +165,17 @@ hr {
   color: #1968a5;
 }
 
+.intersted-links {
+  text-decoration: underline;
+  text-decoration-color: #1968a5;
+  text-decoration-thickness: 2px;
+  margin-left: 20px;
+  font-size: 15px
+}
+
+.intersted-links:hover {
+  color: #1968a5;
+}
 
 /*this section for more info page styling*/
 
