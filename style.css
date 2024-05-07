@@ -146,12 +146,12 @@ hr {
   margin-top: 90px;
 }
 
-.teach-content {
-  margin-top: 50px;
+.tutorial-content {
+  margin-top: 20px;
 }
 
 .div-hope-button {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .hope-button {
@@ -176,6 +176,37 @@ hr {
 .intersted-links:hover {
   color: #1968a5;
 }
+
+
+.section-main-title {
+  padding: 3px;
+  border: 1px solid white;
+  border-top: 3px solid #1968a5;
+  border-left: 3px solid #1968a5;
+}
+
+.tutorial-content-title {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.tutorial-content-title:hover {
+  color: #1968a5;
+}
+
+.tutorial-content-desc {
+  text-decoration: none;
+  margin-left: 0px;
+  font-size: 17px;
+}
+
+.tutorial-content-desc:hover {
+  color: #1968a5
+}
+
+
+
+
 
 /*this section for more info page styling*/
 
