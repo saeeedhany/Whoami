@@ -15,7 +15,7 @@
   box-sizing: border-box;
   background-color: #222222;
   color: white;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .nav-bar {
@@ -67,7 +67,7 @@ ion-icon:hover {
   height: 144px;
   width: 120px;
   margin-top: 75px;
-  margin-left: -400px;
+  margin-left: -365px;
 }
 
 .say-hi {
@@ -114,6 +114,32 @@ ion-icon:hover {
 hr {
   margin-top: 30px;
   margin-bottom: 40px
+}
+
+.help-link {
+  text-decoration: underline;
+  text-decoration-color: #1968a5;
+  text-decoration-thickness: 3px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.help-link:hover {
+  color: #1968a5
+}
+
+.help-desc {
+  margin-left: -10px;
+}
+
+.contact-me {
+  text-decoration: underline;
+  text-decoration-color: #1968a5;
+  text-decoration-thickness: 2px;
+}
+
+.contact-me:hover {
+  color: #1968a5;
 }
 
 .skill-info {
@@ -170,8 +196,9 @@ hr {
   text-decoration-color: #1968a5;
   text-decoration-thickness: 2px;
   margin-left: 20px;
-  font-size: 15px
+  margin-left: 0px;
 }
+
 
 .intersted-links:hover {
   color: #1968a5;
@@ -233,7 +260,12 @@ hr {
   display: block
 }
 
-
+.more-info-main-paragraph {
+  max-width: 900px;
+  background-color: #01080c;
+  border-left: 5px solid #0c5474;
+  padding: 5px;
+}
 
 
 
