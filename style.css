@@ -15,7 +15,7 @@
   box-sizing: border-box;
   background-color: #222222;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .nav-list {
@@ -66,13 +66,13 @@ ion-icon:hover {
   height: 144px;
   width: 120px;
   margin-top: 60px;
-  margin-left: -325px;
+  margin-left: -300px;
 }
 
 .say-hi {
   /* margin-top: 20px; */
   /* margin-left: 15px; */
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 2px;
 }
 
@@ -267,3 +267,88 @@ hr {
 
 
 /*the end of section*/
+
+/*courses page section*/
+
+
+.courses-container {
+  border: 3px solid #FACC15;
+  border-radius: 7px;
+}
+
+.courses-title {
+  text-align: center;
+}
+
+.courses-desc {
+  text-align: center;
+}
+
+.courses-desc-footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.courses-form { 
+}
+
+form {
+  margin: 0 auto;
+  width: 250px;
+}
+
+/* .cut-off { */
+/*   --max-lines: 3; */
+/*   --line-height: 1.7; */
+
+/*   max-height: calc(var(--max-lines) * 1em * var(--line-height)); */
+/*   line-height: var(--line-height); */
+
+/*   overflow: hidden; */
+/*   position: relative; */
+/* } */
+
+/* .cut-off:has(+ .expand-btn:not(:checked))::before { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   height: calc(1em * var(--line-height)); */
+/*   width: 100%; */
+/*   bottom: 0; */
+/*   pointer-events: none; */
+/*   background: linear-gradient(to bottom, transparent, #222222); */
+/* } */
+
+.expand-btn {
+  appearance: none;
+  background-color: #222222;
+  /* border: 1px solid #3B82F6; */
+  /* border-radius: .25em; */
+  font-size: 30px;
+  pointer-events: none;
+  height: 20px;
+}
+
+.expand-btn::before {
+  content: "↓";
+}
+
+/* .expand-btn:checked::before { */
+/*   content: "˄" */
+/* } */
+
+/* .cut-off:has(+ .expand-btn:checked) { */
+/*   max-height: none; */
+/* } */
+
+.grid-thing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.courses-things {
+  border: 3px solid #FACC15;
+  border-radius: 7px;
+}
+
+
+/*End of section*/
