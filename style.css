@@ -18,21 +18,16 @@
   font-size: 18px;
 }
 
-.nav-bar {
-  /* margin-left: 70px; */
-  /* margin-top: 20px; */
-}
-
 .nav-list {
-  display: inline;
+  display: inline-block;
   float: left;
   margin-top: -10px;
-  margin-left: -5px
+  margin-left: -5px;
 }
 
 .nav-link {
-  display: block;
-  padding: 8px;
+  display: inline-block;
+  padding: 3px;
   text-decoration: none;
   font-size: 15px
 }
@@ -45,7 +40,7 @@
   width: 0%;
   left: 0;
   bottom: 0;
-  transition: all 0.1s ease
+  transition: all 0.2s ease
 }
 
 .nav-link:hover::after {
@@ -63,11 +58,15 @@ ion-icon:hover {
   color: #1968a5
 }
 
+.fa-envelope:hover {
+  color: #1968a5; 
+}
+
 .icon-for-me {
   height: 144px;
   width: 120px;
-  margin-top: 75px;
-  margin-left: -365px;
+  margin-top: 60px;
+  margin-left: -325px;
 }
 
 .say-hi {
@@ -79,6 +78,7 @@ ion-icon:hover {
 
 .simple-info {
 }
+
 
 .what-is-come-next {
   margin-top: 20px;
@@ -116,124 +116,72 @@ hr {
   margin-bottom: 40px
 }
 
-.help-link {
-  text-decoration: underline;
-  text-decoration-color: #1968a5;
-  text-decoration-thickness: 3px;
-  font-weight: bold;
-  font-size: 19px;
+.section-list {
+  list-style: "∙"
 }
 
-.help-link:hover {
-  color: #1968a5
-}
 
-.help-desc {
-  margin-left: -10px;
-}
-
-.contact-me {
+.section-link {
   text-decoration: underline;
   text-decoration-color: #1968a5;
   text-decoration-thickness: 2px;
-}
-
-.contact-me:hover {
-  color: #1968a5;
-}
-
-.skill-info {
-  text-decoration: underline;
-  text-decoration-color: #1968a5;
-  text-decoration-thickness: 3px;
   font-weight: bold;
 }
 
-/* .content-list{ */
-/*   margin-left: 60px; */
-/*   list-style: none */
-/* } */
-
-.content-nested-list {
-  margin-left: 40px;
-}
-
-.project-button{
-  text-decoration: underline;
-  text-decoration-color: #1968a5;
-  text-decoration-thickness: 2px;
-}
-
-.project-button:hover {
-  color: #1968a5
-}
-
-.content-second-list {
-  margin-top: 90px;
-}
-
-.tutorial-content {
-  margin-top: 20px;
-}
-
-.div-hope-button {
-  margin-top: 20px;
-}
-
-.hope-button {
-  margin-left: -5px;
-  text-decoration: underline;
-  text-decoration-color: #1968a5;
-  text-decoration-thickness: 2px;
-}
-
-.hope-button:hover {
+.section-link:hover {
   color: #1968a5;
 }
 
-.intersted-links {
+.follow-me {
   text-decoration: underline;
   text-decoration-color: #1968a5;
   text-decoration-thickness: 2px;
-  margin-left: 20px;
-  margin-left: 0px;
 }
 
-
-.intersted-links:hover {
+.follow-me:hover {
   color: #1968a5;
 }
 
+.section2 {
+  margin-top: 60px;
+}
 
-.section-main-title {
-  padding: 3px;
+.section2-list {
+  margin-bottom: 20px;
+}
+
+.section2-title {
+  margin-bottom: 20px
+}
+
+.section2-link {
+  text-decoration: none;
   border: 1px solid white;
-  border-top: 3px solid #1968a5;
-  border-left: 3px solid #1968a5;
+  padding: 3px;
 }
 
-.tutorial-content-title {
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.tutorial-content-title:hover {
+.section2-link:hover {
   color: #1968a5;
 }
 
-.tutorial-content-desc {
+.section2-link2 {
   text-decoration: none;
-  margin-left: 0px;
-  font-size: 17px;
+  margin-left: 0px
 }
 
-.tutorial-content-desc:hover {
-  color: #1968a5
+.section2-link2:hover {
+  color: #1968a5;
 }
 
+.more-btn {
+  text-decoration: underline;
+  text-decoration-color: #1968a5;
+  text-decoration-thickness: 2px;
+}
 
-
-
+.more-btn:hover {
+  color: #1968a5;
+}
 
 /*this section for more info page styling*/
 
@@ -297,6 +245,22 @@ hr {
 
 .sections-title {
   margin-top: 50px;
+}
+
+.main-paragraph-content {
+  margin-left: 25px;
+  border-left: 3px solid #0c5474;
+  padding-left: 5px;
+}
+
+.list-caption {
+  margin-left: 25px;
+  border-left: 3px solid #0c5474;
+  padding-left: 5px;
+}
+
+.framework-list {
+  margin-left: 35px;
 }
 
 
