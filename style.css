@@ -151,7 +151,8 @@ hr {
 }
 
 .section2-title {
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  font-weight: bold
 }
 
 .section2-link {
