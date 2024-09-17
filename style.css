@@ -18,6 +18,10 @@
   font-size: 17px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-list {
   display: inline-block;
   float: left;
